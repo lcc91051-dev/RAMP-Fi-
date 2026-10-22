@@ -2,7 +2,7 @@ from pathlib import Path
 import numpy as np
 
 class IntelCSI:
-    """Minimal Intel 5300 ``.dat`` parser used by the UniCrossFi pipeline."""
+    """Read raw Intel 5300 CSI ``.dat`` recordings."""
 
     def __init__(self, file_path: Path, nrxnum: int = 3, ntxnum: int = 1):
         self.file_path = file_path

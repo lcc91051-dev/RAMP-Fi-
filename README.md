@@ -2,8 +2,7 @@
 
 RAMP-Fi recognizes WiFi CSI gestures in an unseen room using one labeled
 source room and a second, unlabeled source room. This repository provides the
-preprocessing code, model, training procedure, and seed-43 checkpoints. See
-the paper for the full analysis.
+preprocessing code, model, training procedure, and seed-43 checkpoints.
 
 ## Method
 
@@ -106,6 +105,8 @@ The generated cache and training outputs are excluded from Git. Dataset
 files must be obtained under the dataset provider's terms. Code is released
 under the MIT license; the pretrained weights are supplied in `weights/`.
 
-The Intel 5300 CSI parser and TD-CSI preprocessing build on the publicly
-released [UniCrossFi/ARC-Fi implementation](https://github.com/KaoruMiyazono/UnicrossFi).
+The Intel 5300 `.dat` parser in `intel_csi.py` is adapted from the
+[UniCrossFi implementation](https://github.com/KaoruMiyazono/UnicrossFi).
+The antenna ranking, ratio-stream construction, and training pipeline are
+implemented in this repository.
 The Widar3.0 recordings are not redistributed in this repository.

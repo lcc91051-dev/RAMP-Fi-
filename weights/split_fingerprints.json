@@ -1,0 +1,38 @@
+{
+  "room2_labeled": {
+    "labeled_train": {
+      "count": 1300,
+      "sha256": "07a23135c29be7693eddae5b313367d97cfe9b7ff28c30156c99f56bb8ff222a"
+    },
+    "validation": {
+      "count": 325,
+      "sha256": "aa43bc31cec0a59196a0e3f7310a633677ffcea159d0d7a46bd32650f1a23b16"
+    },
+    "unlabeled_train": {
+      "count": 2998,
+      "sha256": "53a76228e376950c788208ed71effcdbada8ea247fa7b111499f7cab40fce417"
+    },
+    "target_test": {
+      "count": 6750,
+      "sha256": "71c15d995c217b3e65121ce3f8d0682e7fc4b4dde86b122ac8622006a8b830ed"
+    }
+  },
+  "room3_labeled": {
+    "labeled_train": {
+      "count": 2398,
+      "sha256": "d34cde44930e9a578a9d56c532cee464d3014202da56bf6fdc421027531d9fee"
+    },
+    "validation": {
+      "count": 600,
+      "sha256": "b403f0a3dbfb827b5551850c721e7827b3041b843ca47f4acd8ccf0ca5dd664a"
+    },
+    "unlabeled_train": {
+      "count": 1625,
+      "sha256": "aa77e29c1997eaa2eda12b5909678e483095291e228e8bbca77b886ee0aafb09"
+    },
+    "target_test": {
+      "count": 6750,
+      "sha256": "71c15d995c217b3e65121ce3f8d0682e7fc4b4dde86b122ac8622006a8b830ed"
+    }
+  }
+}
